@@ -20,14 +20,14 @@
         }
         
         .logo {
-            font-size: 48px;
+            font-size: 30px;
             font-weight: bold;
             letter-spacing: 5px;
             margin-bottom: 20px;
         }
         .logo span {
             font-family: 'Cursive', sans-serif;
-            font-size: 24px;
+            font-size: 12px;
             display: block;
             margin-top: -10px;
             color: #666;
@@ -182,7 +182,7 @@
         }
 
         function copyToClipboard(meetingCode) {
-            const message = `Cordial saludo miembro(s) de la comunidad Asclepio, a continuación le(s) comparto el código de acceso para nuestra reunión programada. para ingresar diríjase al siguiente enlace https://github.com/DIEGO3117683361/MEETINGASCLEPIO/ e ingrese al siguiente código: ${meetingCode}`;
+            const message = `Cordial saludo miembro(s) de la comunidad Asclepio, a continuación le(s) comparto el código de acceso para nuestra reunión programada. para ingresar diríjase al siguiente enlace https://diego3117683361.github.io/MEETINGASCLEPIO/ e ingrese al siguiente código: ${meetingCode}`;
             navigator.clipboard.writeText(message).then(() => {
                 alert("El código de la reunión se ha copiado al portapapeles.");
             }).catch(() => {
