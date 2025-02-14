@@ -182,7 +182,7 @@
         }
 
         function copyToClipboard(meetingCode) {
-            const message = `Cordial saludo miembro(s) de la comunidad Asclepio, a continuación le(s) comparto el código de acceso para nuestra reunión programada. para ingresar diríjase al siguiente enlace https://diego3117683361.github.io/MEETINGASCLEPIO/ e ingrese al siguiente código: ${meetingCode}`;
+            const message = `Cordial saludo miembro(s) de la comunidad Asclepio, a continuación le(s) comparto el código de acceso para nuestra reunión programada. para ingresar diríjase al siguiente enlace https://sites.google.com/view/asclepiomiembros/meeting o ingrese a la aplicación e ingrese al siguiente código: ${meetingCode}`;
             navigator.clipboard.writeText(message).then(() => {
                 alert("El código de la reunión se ha copiado al portapapeles.");
             }).catch(() => {
